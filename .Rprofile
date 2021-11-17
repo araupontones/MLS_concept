@@ -4,7 +4,7 @@ cli::cli_alert_success("MLS concept note")
 libraries <- c(
   
   "dplyr", "tidyr", "stringr",
-  "janitor", "rio", "ggplot",
+  "janitor", "rio", "ggplot2",
   "forcats"
   
   )

@@ -1,12 +1,11 @@
-infile <- "report/tables/summary_firm_data.rds"
-exfile <- file.path(plots, "Harmonization/databasesAcrossRounds.png")
+infile <- "report/tables/summary_harmonized_data.rds"
+exfile <- file.path(plots, "Harmonization/databasesAcrossRoundsHarm.png")
 
 
 d <- import(infile)
 
 
 
-View(d_p)
 #prepare data for plot --------------------------------------------------------
 d_p <- d |>
   mutate(name = database) |>
@@ -27,6 +26,7 @@ d_p <- d |>
   filter(!str_detect(name, "interview__")) |>
   filter(value == "Yes")
 
+View(d_p)
 
 
 #plot ---------------------------------------------------------------------------
@@ -49,7 +49,8 @@ d_p |>
                    expand = c(0,0))+
   labs(x = "",
        y = "Dataset",
-       title = "Consistency of raw datasets across rounds.",
+       title = "Consistency of harmonized datasets across\nrounds.",
+       subtitle = "From the 60 harmonized datasets, 71.7% exist in both rounds of Baseline."
        #subtitle = "Only in the round 2B_2019, there are 394 datasets. And not all the folders exist for all\nthe sub-rounds.",
        #caption = "Analysis of the data management system for the MLSS online dashboard | Nov 2021 "
        ) +
@@ -57,11 +58,11 @@ d_p |>
   theme(axis.text.x = element_blank(),
         panel.grid = element_blank(),
         plot.background = element_rect(fill = "white"),
-        legend.position = c(.3,1),
+        legend.position = "top",
         legend.direction = "horizontal",
         legend.title = element_blank(),
-        legend.text = element_text(size = 22),
-        plot.title = element_text(size = 36)
+        legend.text = element_text(size = 12),
+        plot.title = element_text(size = 18)
         )
   
   
@@ -72,6 +73,6 @@ d_p |>
 exfile
 ggsave(exfile,
        last_plot(),
-       height = 80,
-       width = 30,
+       height = 30,
+       width = 16,
        units = 'cm')
