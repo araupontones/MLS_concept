@@ -3,11 +3,8 @@ title: "Dashboard MLS Malawi: Concept note"
 author: "Andrés Arau"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
-  bookdown::gitbook:
-   split_by: none
-   self_contained: true
-   css: "style.css"
-   toc_depth: 6
+  word_document:
+     reference_docx: template.docx
 ---
 
 <head>
