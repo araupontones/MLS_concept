@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-11-17T10:22:04.913Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="eEltICebrJjqyKLo0dAT" version="15.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-17T11:08:21.773Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="C56R8VLVnvSoNaX-KqWT" version="15.7.4" type="github">
   <diagram id="DLzQyiduDrIikC9o6ego" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Q_4Ov2yojhcQS-wfZ1ic-2" value="System of about &lt;br&gt;13 dofiles" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;align=center;sketch=1;verticalAlign=middle;whiteSpace=wrap;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="Q_4Ov2yojhcQS-wfZ1ic-2" value="Harmonization&lt;br&gt;System of about &lt;br&gt;13 dofiles" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;align=center;sketch=1;verticalAlign=middle;whiteSpace=wrap;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="240" y="300" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Q_4Ov2yojhcQS-wfZ1ic-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;sketch=1;" parent="1" source="-hGgSbi9Vjy-FhReLC_4-1" target="Q_4Ov2yojhcQS-wfZ1ic-2" edge="1">
@@ -19,7 +19,7 @@
         <mxCell id="-hGgSbi9Vjy-FhReLC_4-1" value="Raw data stored in /01_FIRM&lt;br&gt;(Over 600 stata data files)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="280" width="150" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="-hGgSbi9Vjy-FhReLC_4-2" value="Unharmonized folder architecture; diverese naming and coding protocols of variables across rounds." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Courier New;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="-hGgSbi9Vjy-FhReLC_4-2" value="&lt;b&gt;Unharmonized&lt;/b&gt; folder architecture; diverese naming and coding protocols of variables across rounds." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Courier New;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="22.5" y="414" width="185" height="106" as="geometry" />
         </mxCell>
         <mxCell id="-hGgSbi9Vjy-FhReLC_4-3" value="Harmonized data&lt;br&gt;stored in 03/Harmonized" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;sketch=1;" vertex="1" parent="1">
@@ -28,7 +28,7 @@
         <mxCell id="-hGgSbi9Vjy-FhReLC_4-5" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;labelBackgroundColor=#D5E8D4;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="310" width="80" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-hGgSbi9Vjy-FhReLC_4-6" value="Although there&#39;s a degree of automation, each dataset requires a manual (specific) manipulation for the harmonization to be effective" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Courier New;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="-hGgSbi9Vjy-FhReLC_4-6" value="Although there&#39;s a degree of automation, &lt;b&gt;each dataset requires a manual (specific) manipulation&lt;/b&gt; for the harmonization to be effective" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Courier New;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="250" y="100" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
