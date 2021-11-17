@@ -1,0 +1,27 @@
+:root {
+
+  --solidBlue: #002244;
+  --brigthBlue: #009FDA;
+  --black: #007092;
+}
+
+
+
+
+
+.book .book-body .page-wrapper .page-inner{
+
+  max-width: 1000px !important;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+table{
+  font-size: 11px;
+}
+
+h1{
+  color: var(--solidBlue);
+}

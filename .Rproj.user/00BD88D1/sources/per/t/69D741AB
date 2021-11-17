@@ -1,0 +1,30 @@
+{
+    "id": "69D741AB",
+    "path": "C:/repositaries/1.work/MLS_concept/report/concept.Rmd",
+    "project_path": "report/concept.Rmd",
+    "type": "r_markdown",
+    "hash": "1736207768",
+    "contents": "",
+    "dirty": false,
+    "created": 1636968378960.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "38,0",
+        "scrollLine": "6",
+        "rmdVisualMode": "false",
+        "rmdVisualWrapConfigured": "true",
+        "docOutlineVisible": "1",
+        "rmdVisualModeLocation": "791:736"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1637079074,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1637079074,
+    "read_only": false,
+    "read_only_alternatives": []
+}
