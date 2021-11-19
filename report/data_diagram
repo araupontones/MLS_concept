@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T12:14:05.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="qvU98eUj3kmPOWXYld_c" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-19T12:15:59.740Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="ZQbD-sS76GPNeX9G0s5d" version="15.8.2" type="github">
   <diagram id="imqOfoQSG7cxkNPHNNTQ" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -117,21 +117,8 @@
             <mxRectangle width="260" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iBLnLlU04tCKv41Gzk2S-34" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;fontStyle=1;fontFamily=Lucida Console;" vertex="1" parent="iBLnLlU04tCKv41Gzk2S-27">
-          <mxGeometry y="80" width="290" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="iBLnLlU04tCKv41Gzk2S-35" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=13;fontStyle=1;fontFamily=Lucida Console;" vertex="1" parent="iBLnLlU04tCKv41Gzk2S-34">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="iBLnLlU04tCKv41Gzk2S-36" value="id_indicator" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontStyle=1;fontSize=13;fontFamily=Lucida Console;" vertex="1" parent="iBLnLlU04tCKv41Gzk2S-34">
-          <mxGeometry x="30" width="260" height="30" as="geometry">
-            <mxRectangle width="260" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="iBLnLlU04tCKv41Gzk2S-114" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;fontStyle=1;fontFamily=Lucida Console;" vertex="1" parent="iBLnLlU04tCKv41Gzk2S-27">
-          <mxGeometry y="110" width="290" height="30" as="geometry" />
+          <mxGeometry y="80" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iBLnLlU04tCKv41Gzk2S-115" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=13;fontStyle=1;fontFamily=Lucida Console;" vertex="1" parent="iBLnLlU04tCKv41Gzk2S-114">
           <mxGeometry width="30" height="30" as="geometry">
@@ -139,6 +126,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="iBLnLlU04tCKv41Gzk2S-116" value="value" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontStyle=1;fontSize=13;fontFamily=Lucida Console;" vertex="1" parent="iBLnLlU04tCKv41Gzk2S-114">
+          <mxGeometry x="30" width="260" height="30" as="geometry">
+            <mxRectangle width="260" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iBLnLlU04tCKv41Gzk2S-34" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;fontStyle=1;fontFamily=Lucida Console;" vertex="1" parent="iBLnLlU04tCKv41Gzk2S-27">
+          <mxGeometry y="110" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iBLnLlU04tCKv41Gzk2S-35" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=13;fontStyle=1;fontFamily=Lucida Console;" vertex="1" parent="iBLnLlU04tCKv41Gzk2S-34">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iBLnLlU04tCKv41Gzk2S-36" value="id_indicator" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontStyle=1;fontSize=13;fontFamily=Lucida Console;" vertex="1" parent="iBLnLlU04tCKv41Gzk2S-34">
           <mxGeometry x="30" width="260" height="30" as="geometry">
             <mxRectangle width="260" height="30" as="alternateBounds" />
           </mxGeometry>
