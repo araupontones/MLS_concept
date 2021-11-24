@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-24T18:27:50.149Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="YNr42u16c2XUG6ZJUHVe" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-24T18:28:40.013Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="UNLbZr2CxGq02gmMoSPG" version="15.8.2" type="github">
   <diagram id="DLzQyiduDrIikC9o6ego" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -55,7 +55,7 @@
         <mxCell id="wx_ewommw91IzhtvHJYf-4" value="&lt;span style=&quot;font-size: 15px&quot;&gt;For all the sub-rounds the data is combined and then &lt;b&gt;exported to the round/04_Cleaned&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Courier New;fontSize=14;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="70" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wx_ewommw91IzhtvHJYf-8" value="Derived data&amp;nbsp;&lt;br&gt;stored in&amp;nbsp;05_Derived&lt;br&gt;&lt;b&gt;5 files&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;sketch=1;" parent="1" vertex="1">
+        <mxCell id="wx_ewommw91IzhtvHJYf-8" value="Derived data&amp;nbsp;&lt;br&gt;stored in&amp;nbsp;05_Derived&lt;br&gt;&lt;b&gt;3 files&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="900" y="290" width="150" height="120" as="geometry" />
         </mxCell>
         <mxCell id="wx_ewommw91IzhtvHJYf-9" value="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;27&lt;/b&gt; &lt;b&gt;dofiles of a very manual&lt;/b&gt; system that cleans, creates intermediate datasets, and exports indicators at the school, student and teacher level.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Courier New;fontSize=14;sketch=1;" parent="1" vertex="1">
