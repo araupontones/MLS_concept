@@ -6,8 +6,8 @@ exfile_p <- file.path(exdir, "varNamesPupils.rds")
 exfile_t <- file.path(exdir, "varNamesTeachers.rds")
 
 
-s <- rio::import(file.path(derived_dir, "school_level_indicators_final_c1.dta" ))
-p <- rio::import(file.path(derived_dir, "student_level_indicators_final_c1.dta" ))
+s <- rio::import(file.path(derived_dir, "school_level_indicators_final.dta" ))
+p <- rio::import(file.path(derived_dir, "student_level_indicators_final.dta" ))
 t <- rio::import(file.path(derived_dir, "teacher_level_indicators_final.dta" ))
 
 
@@ -17,6 +17,9 @@ pupil_derived <- create_data_info(p)
 teacher_derived <- create_data_info(t)
 
 
+nrow(t)
+ncol(t)
+
 export(school_derived, exfile_s)
 export(pupil_derived, exfile_p)
 export(teacher_derived, exfile_t)
@@ -25,3 +28,4 @@ export(teacher_derived, exfile_t)
 
 
 
+View(school_derived)
